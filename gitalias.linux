@@ -32,3 +32,14 @@
 	  git log --pretty=format:\"- { name: '%an', email: '%ae' }\" \
 	  | sort | uniq; \
 	}; authors"
+        create-file = "!createFile() { \
+          for name in \"$@\"; do \
+            echo $name>$name.txt; \
+          done; \
+        }; createFile"
+        simple-commit = "!simpleCommit() { \
+          for name in \"$@\"; do \
+            git create-file \"$name\"; \
+            git snapshot $name; \
+          done; \
+        }; simpleCommit"
