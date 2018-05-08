@@ -17,6 +17,7 @@ git config --global credential.helper store
 cat gitalias.linux >> ~/.gitconfig
 
 On MacOS add
+
 cat gitalias.macos >> ~/.gitconfig
 
 
