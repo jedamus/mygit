@@ -34,3 +34,5 @@ git days
 git dayscount
 git stat
 git authors
+git create-file
+git simple-commit
