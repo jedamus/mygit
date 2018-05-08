@@ -20,3 +20,11 @@
         dayscount = "!dayscount() { \
           git log --pretty=format:%cd --date=short | uniq | wc -l; \
         }; dayscount"
+        snapshot = "!snapshot() { \
+          COMMENT="minor changes"; \
+          if [ \"$*\" ]; then \
+              COMMENT=\"$*\"; \
+          fi; \
+          git add -A; \
+          git commit -m \"$COMMENT\"; \
+        }; snapshot"
