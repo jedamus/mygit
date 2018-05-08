@@ -28,3 +28,7 @@
           git add -A; \
           git commit -m \"$COMMENT\"; \
         }; snapshot"
+	authors = "!authors() { \
+	  git log --pretty=format:\"- { name: '%an', email: '%ae' }\" \
+	  | sort | uniq; \
+	}; authors"
