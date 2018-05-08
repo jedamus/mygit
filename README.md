@@ -5,6 +5,7 @@ Here the user is named John Doe and has the email-address john.doe@example.net
 
 git config --global user.name "John Doe"
 git config --global user.email john.doe@example.net
+
 git config --global push.default simple
 
 On Linux add
@@ -25,3 +26,9 @@ cp -p gitinit.sh ~/bin
 
 Run gitinit.sh in that directory you want to start using git.
 
+When you have added gitalias to your global git config file, there are new
+commands available like:
+git l
+git days
+git dayscount
+git stat
