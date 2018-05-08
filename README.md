@@ -13,6 +13,8 @@ git config --global credential.helper "/usr/local/bin/git-credential-gnome-keyri
 - or -
 git config --global credential.helper store
 
-install:
+cat gitalias.linux >> ~/.gitconfig
 cp -p gitinit.sh ~/bin
-cat gitalias >> ~/.gitconfig
+
+On MacOS add
+cat gitalias.macos >> ~/.gitconfig
