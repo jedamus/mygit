@@ -33,3 +33,4 @@ git l
 git days
 git dayscount
 git stat
+git authors
