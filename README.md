@@ -14,7 +14,14 @@ git config --global credential.helper "/usr/local/bin/git-credential-gnome-keyri
 git config --global credential.helper store
 
 cat gitalias.linux >> ~/.gitconfig
-cp -p gitinit.sh ~/bin
 
 On MacOS add
 cat gitalias.macos >> ~/.gitconfig
+
+
+And last:
+cp -p gitinit.sh ~/bin
+
+
+Run gitinit.sh in that directory you want to start using git.
+
