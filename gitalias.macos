@@ -1,5 +1,6 @@
 [alias]
 	l = log --oneline --abbrev-commit --abbrev=4 -25
+	graph = log --oneline --graph --decorate --all
 	days = "!days() { \
 	  git log --pretty=format:%cd --date=short | uniq; \
 	}; days"
