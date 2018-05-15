@@ -1,6 +1,10 @@
 [alias]
         l = log --oneline --abbrev-commit --abbrev=4 -25
 	graph = log --oneline --graph --decorate --all
+        walk = "!walk() { \
+          git log --walk-reflogs --grep=$1 --pretty=\"%h %s %d\" \
+           | sort | uniq; \
+        }; walk"
         days = "!days() { \
           git log --pretty=format:%cd --date=short | uniq; \
         }; days"
