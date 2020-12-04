@@ -1,5 +1,7 @@
 # My Git
 
+## Getting started
+
 Configuring git:
 Here the user is named John Doe and has the email-address john.doe@example.net
 
