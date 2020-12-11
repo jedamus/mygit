@@ -2,6 +2,10 @@
 
 ## Getting started
 
+```
+sh ./install.sh
+```
+
 On Linux use:
 ```
 sh ./install_linux.sh
