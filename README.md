@@ -1,12 +1,12 @@
 # My Git
 
+## Getting started
+
 Perhaps you have to do this first:
 
 ```
 sudo apt install git-all
 ```
-
-## Getting started
 
 1.
 
@@ -14,15 +14,14 @@ sudo apt install git-all
 sh ./install.sh
 ```
 
-And then on Linux use:
-2.
+2. On Linux use:
 
 ```
 sh ./install_linux.sh
 ```
 
-On MacOS use:
-2.
+2. On MacOS use:
+
 
 ```
 sh ./install_macos.sh
