@@ -1,5 +1,11 @@
 # My Git
 
+Perhaps you have to do this first:
+
+```
+sudo apt install git-all
+```
+
 ## Getting started
 
 1.
